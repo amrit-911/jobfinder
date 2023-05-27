@@ -1,0 +1,15 @@
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email":"amrit19",
+    "password":"1234"
+}
+
+###
+POST http://localhost:8000/protected
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFtcml0MTkiLCJwYXNzd29yZCI6IjEyMzQiLCJpYXQiOjE2ODUxMTUwMDksImV4cCI6MTY4NTE1MTAwOX0.wIws2e3hhOZuitGIToy8jwczFJWYnLUv9IB12g0_oKM"
+}
